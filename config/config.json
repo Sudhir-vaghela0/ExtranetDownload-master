@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "extranet-download-button-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/extranetDownloadButton/ExtranetDownloadButtonWebPart.js",
+          "manifest": "./src/webparts/extranetDownloadButton/ExtranetDownloadButtonWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "ExtranetDownloadButtonWebPartStrings": "lib/webparts/extranetDownloadButton/loc/{locale}.js"
+  }
+}

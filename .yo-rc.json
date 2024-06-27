@@ -1,0 +1,21 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "18.17.1",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.12.0"
+    },
+    "version": "1.18.2",
+    "libraryName": "extranet-download",
+    "libraryId": "d55891fb-4a27-445c-92e0-c9b9b2a1acbb",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "extranet-download",
+    "solutionShortDescription": "extranet-download description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "extranet-download-client-side-solution",
+    "id": "d55891fb-4a27-445c-92e0-c9b9b2a1acbb",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.18.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "extranet-download description"
+      },
+      "longDescription": {
+        "default": "extranet-download description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "extranet-download Feature",
+        "description": "The feature that activates elements of the extranet-download solution.",
+        "id": "57dff55f-0f63-4498-a721-b3dd8e365075",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/extranet-download.sppkg"
+  }
+}
